@@ -27,15 +27,23 @@ Remix IDE: For deploying Solidity contracts.
 Accounts and Network:
 BSC Testnet account with sufficient test BNB for gas fees.
 MetaMask configured to the BSC Testnet.
+
+
 Installation and Setup
+
 Step 1: Clone the Repository-
 git clone <repository_url>
 cd <project_directory>
+
 Step 2: Install Dependencies
 npm install
+
 Step 3: Start the React App
 npm start
+
+
 Deployment Instructions
+
 Deploy Smart Contracts
 Open Remix IDE.
 Import the Solidity files from the contracts directory.
@@ -43,13 +51,16 @@ Compile and deploy the contracts to the BSC Testnet.
 Note the deployed contract addresses for further use.
 Import Tokens to MetaMask
 Open MetaMask and switch to the BSC Testnet.
+
 Add each token:
 Token Address: Use the deployed contract address.
 Token Symbol: As defined in the contract (e.g., USDC, USDT, YFI).
+
 Usage
 Transfer Tokens: Use the React app to transfer tokens to other wallets.
 Check Balances: View token balances of any wallet address.
 Monitor Transactions: Use BscScan Testnet to track token transactions.
+
 Technologies Used
 Solidity: Smart contract development.
 Remix IDE: Smart contract deployment.
